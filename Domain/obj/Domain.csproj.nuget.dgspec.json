@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj": {
+    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.9, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

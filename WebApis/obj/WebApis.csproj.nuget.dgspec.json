@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\WebApis\\WebApis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj": {
+    "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\WebApis\\WebApis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\WebApis\\WebApis.csproj",
+        "projectName": "WebApis",
+        "projectPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\WebApis\\WebApis.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\source\\repos\\FinanceApp\\FinanceApis\\WebApis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -57,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
